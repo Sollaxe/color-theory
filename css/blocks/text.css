@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'poiret_one';
-    src: url('/fonts/Poiret_One/PoiretOne-Regular.ttf');
+    src: url('../../fonts/Poiret_One/PoiretOne-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
@@ -8,37 +8,37 @@
 
 @font-face {
     font-family: 'fira_thin';
-    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Thin.ttf');
+    src: url('../../fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Thin.ttf');
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
     font-family: 'fira_light';
-    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Light.ttf');
+    src: url('../../fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Light.ttf');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'fira_regular';
-    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Regular.ttf');
+    src: url('../../fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'fira_medium';
-    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Medium.ttf');
+    src: url('../../fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Medium.ttf');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'fira_bold';
-    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf');
+    src: url('../../fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'fira_black';
-    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Black.ttf');
+    src: url('../../fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Black.ttf');
     font-weight: 900;
     font-style: normal;
 }
@@ -46,37 +46,37 @@
 
 @font-face {
     font-family: 'alegreya_thin';
-    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Thin.ttf');
+    src: url('../../fonts/Alegreya_Sans_SC/AlegreyaSansSC-Thin.ttf');
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
     font-family: 'alegreya_light';
-    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf');
+    src: url('../../fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'alegreya_regular';
-    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf');
+    src: url('../../fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'alegreya_medium';
-    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Medium.ttf');
+    src: url('../../fonts/Alegreya_Sans_SC/AlegreyaSansSC-Medium.ttf');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'alegreya_bold';
-    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Bold.ttf');
+    src: url('../../fonts/Alegreya_Sans_SC/AlegreyaSansSC-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'alegreya_black';
-    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Black.ttf');
+    src: url('../../fonts/Alegreya_Sans_SC/AlegreyaSansSC-Black.ttf');
     font-weight: 900;
     font-style: normal;
 }
