@@ -1,0 +1,84 @@
+.page {
+	background-color: #c25b55;
+	position: fixed;
+	top: 0; bottom: 0; left: 0; right: 0;
+	z-index: 200;
+	overflow-y: hidden;
+	padding: 40px;
+}
+
+.page__head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.page__body {
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+}
+
+.page__img-container {
+	/*max-width: 600px;*/
+	/*flex: 1 600px;*/
+}
+
+.page__body {
+	/*flex: 1 600px;*/
+	padding: 60px 0 30px 0;
+}
+
+.page__img {
+	max-width: 600px;
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+.page__text {
+	min-width: 300px;
+	/*padding: 15px 20px 15px 15px;*/
+	/*float: left;*/
+}
+
+.page .page__img {
+	transition: opacity .4s;
+	opacity: 0;
+}
+
+
+.page .page__text,
+.page .page__subtitle {
+	transition: opacity .5s;
+	opacity: 0;
+}
+
+.page_show {
+	overflow-y: auto;
+}
+
+/*.page_hide .page__text,
+.page_hide .page__subtitle,
+.page_hide .page__img {
+	opacity: 0;
+}*/
+
+.page_show .page__text,
+.page_show .page__subtitle,
+.page_show .page__img {
+	opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+	.page__body {
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+	}
+
+	.page__img {
+		flex: 1 600px;
+	}
+
+	.page__text {
+		flex: 1 500px;
+	}
+}

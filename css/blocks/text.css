@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'poiret_one';
+    src: url('/fonts/Poiret_One/PoiretOne-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'fira_thin';
+    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_light';
+    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_regular';
+    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_medium';
+    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_bold';
+    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_black';
+    src: url('/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'alegreya_thin';
+    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya_light';
+    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya_regular';
+    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya_medium';
+    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya_bold';
+    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreya_black';
+    src: url('/fonts/Alegreya_Sans_SC/AlegreyaSansSC-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+.text_font_poiret-one {
+	font-family: 'poiret_one', sans-serif;
+}
+
+
+.text_font_fira-thin {
+	font-family: 'fira_thin', sans-serif;
+}
+.text_font_fira-light {
+	font-family: 'fira_light', sans-serif;
+}
+.text_font_fira-regular {
+	font-family: 'fira_regular', sans-serif;
+}
+.text_font_fira-medium {
+	font-family: 'fira_medium', sans-serif;
+}
+.text_font_fira-bold {
+	font-family: 'fira_bold', sans-serif;
+}
+.text_font_fira-black {
+	font-family: 'fira_black', sans-serif;
+}
+
+
+.text_font_alegreya-thin {
+	font-family: 'alegreya_thin', sans-serif;
+}
+.text_font_alegreya-light {
+	font-family: 'alegreya_light', sans-serif;
+}
+.text_font_alegreya-regular {
+	font-family: 'alegreya_regular', sans-serif;
+}
+.text_font_alegreya-medium {
+	font-family: 'alegreya_medium', sans-serif;
+}
+.text_font_alegreya-bold {
+	font-family: 'alegreya_bold', sans-serif;
+}
+.text_font_alegreya-black {
+	font-family: 'alegreya_black', sans-serif;
+}
+
+
+
+.text_hv-cursor_pointer:hover {
+  cursor: pointer;
+}
+
+.text_hv-underline:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+
+.text_size_us {
+	font-size: 0.75em; /* 12px */
+}
+
+.text_size_xxs {
+	font-size: 0.875em; /* 14px */
+}
+
+.text_size_xs {
+	font-size: 1.125em; /* 18px */
+}
+
+.text_size_s {
+	font-size: 1.25em; /* 20px */
+}
+
+.text_size_m {
+	font-size: 1.5em; /* 24px */
+}
+
+.text_size_l {
+	font-size: 2.5em; /* 36px */
+}
+
+.text_size_xl {
+	font-size: 3em; /* 48px */
+}
+
+.text_size_xxl {
+	font-size: 3.75em; /* 60px */
+}
+
+.text_size_ul {
+	font-size: 4.5em; /* 72px */
+}

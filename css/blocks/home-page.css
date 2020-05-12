@@ -1,0 +1,143 @@
+.home-page {
+	z-index: 1000;
+	padding: 40px;
+	position: fixed;
+	background: linear-gradient(145deg, rgb(189,151,255) 0%, rgb(164,155,255) 18%, rgb(138,158,255) 38%, rgb(135,125,232) 72%, rgb(165,141,216) 100%);
+	top: 0; bottom: 0; left: 0; right: 0;
+	transition: .5s;
+}
+
+.home-page_hide {
+	transform: translateY(-100%);
+}
+
+.home-page__title {
+	color: #fff;
+	opacity: 0;
+	animation: .6s linear .3s 1 both slideTopSoft;
+}
+
+.home-page__title {
+}
+
+.home-page__list-container {
+	display: flex;
+	padding: 20px 40px;
+}
+
+.home-page__chapters-list {
+	color: #fff;
+	/*list-style: circle;*/
+}
+
+.home-page__chapter {
+	/*text-decoration: none;*/
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	height: 31px;
+	opacity: 0;
+	position: relative;
+}
+
+.home-page__chapter::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	content: "";
+	position: absolute;
+	top: 11px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+.home-page__chapter_anim {
+	animation: .2s linear 1 both slideFromLeftSoft;
+}
+
+.home-page__but-to-start {
+	position: absolute;
+	bottom: 40px; right: 40px;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #8792f8;
+	border-radius: 200px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	transition: background-color .1s, color .1s;
+	opacity: 0;
+	animation: .6s linear .3s 1 both slideBotSoft;
+}
+
+.home-page__but-to-start {
+}
+
+.home-page__but-to-start:hover {
+	background-color: #6861b5;
+	color: #fff;
+}
+
+.home-page__down-angle {
+	position: absolute;
+	bottom: 40px; left: 40px;
+}
+
+.home-page__top-angle {
+	position: absolute;
+	top: 40px; right: 40px;
+}
+
+
+
+
+@keyframes slideTopSoft {
+	0% {
+		opacity: 0;
+		/*transform: translateX(-40px);*/
+	}
+	100% {
+		opacity: 1;
+		/*transform: translateX(0);*/
+	}
+}
+
+@keyframes slideBotSoft {
+	0% {
+		opacity: 0;
+		/*transform: translateX(40px);*/
+	}
+	100% {
+		opacity: 1;
+		/*transform: translateX(0);*/
+	}
+}
+
+@keyframes slideFromLeftSoft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideFromTopSoft {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
